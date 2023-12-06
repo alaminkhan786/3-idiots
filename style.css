@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to top left, rgb(255, 252, 252), rgb(251, 251, 251), rgb(249, 245, 245), rgb(255, 255, 255),rgb(178, 252, 252));
+    padding-top: 10px;
+}
+
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: darkorange;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+.section{
+    margin: 20px 0px;
+}
+
+#header{
+    /* background-color: rgb(249, 249, 157); */
+}
+
+.carousel-item{
+    height: 700px;
+    position: relative;
+}
+
+li a{
+    margin-right: 35px;
+    color: white;
+}
+
+li a:hover{
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 30px;
+    transition: 0.8s;
+    padding: 5px 10px;
+    /* font-size: 18px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+    float: left;
+    width: 50%;
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.edit-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
